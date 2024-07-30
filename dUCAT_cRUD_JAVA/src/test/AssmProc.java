@@ -26,43 +26,41 @@ public class AssmProc {
 		InputStreamReader isr = new InputStreamReader(System.in); //  this also work like scanner but much better due to less type casting
 		BufferedReader br = new BufferedReader(isr);
 		
-//		1. input name : 
 		System.out.println("input name : ");
 		cs.setString(1, br.readLine());
 		
-//		1. input p_edesg : 
+
 		System.out.println(" input p_edesg : ");
 		cs.setString(2, br.readLine());
-		
-//		1. input p_hno: 
+
 		System.out.println("input p_hno : ");
 		cs.setString(3, br.readLine());
 		
-//		1. input p_sname : 
+
 		System.out.println("input p_sname : ");
 		cs.setString(4, br.readLine());
 		
-//		1. input p_city : 
+
 		System.out.println("input p_city : ");
 		cs.setString(5, br.readLine());
 		
-//		1. input p_state : 
+
 		System.out.println("input p_state : ");
 		cs.setString(6, br.readLine());
 		
-//		2 : input p_pincode
+
 		System.out.println("input p_pincode : ");
 		cs.setInt(7, Integer.parseInt(br.readLine()));
 		
-//		1. input p_mailid 
+
 		System.out.println("input p_mailid : ");
 		cs.setString(8, br.readLine());
 		
-//		1 : input p_phoneno
+
 		System.out.println("Enter p_phoneno: ");
 		cs.setLong(9, Long.parseLong(br.readLine()));
 		
-//		4. input p_bsal
+
 		System.out.println("input p_bsal :");
 		double bsal = Double.parseDouble(br.readLine());
 		cs.setDouble(10, bsal);
