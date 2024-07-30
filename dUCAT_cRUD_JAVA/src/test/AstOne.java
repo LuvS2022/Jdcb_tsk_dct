@@ -93,9 +93,10 @@ public class AstOne {
 				System.out.print("Enter your bsal : ");
 				int bsal = Integer.parseInt(br.readLine());
 				
-				int HRA = 6000, DA = 3000;
+				double HRA = 0.93*bsal;
+				double DA = 0.61*bsal;
 				
-				Double totSal = bsal + (0.93*HRA) + (0.61*DA);
+				double totSal = bsal + HRA + DA;
 				
 				ps3.setInt(1,id);
 				ps3.setString(2, name);
@@ -137,9 +138,12 @@ public class AstOne {
 					System.out.print("Enter your bsal : ");
 					int bsal = Integer.parseInt(br.readLine());
 					
-					int HRA = 6000, DA = 3000;
 					
-					double totSal = bsal + (0.93*HRA) + (0.61*DA);
+					
+					double HRA = 0.93*bsal;
+					double DA = 0.61*bsal;
+					
+					double totSal = bsal + HRA + DA;
 					
 					
 					ps4.setString(1, desg);
